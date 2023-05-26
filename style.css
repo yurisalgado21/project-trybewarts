@@ -1,7 +1,13 @@
 .header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(50, 167, 145);
-  height: 50px;
+  height: 100%;
+}
+
+.trybewarts-header-logo {
+  width: 30px;
 }
 
 .trybewarts-login {
@@ -9,4 +15,12 @@
   align-items: center;
   margin-left: auto;
   gap: 10px;
+}
+
+#trybewarts-header-title {
+  border: solid red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
