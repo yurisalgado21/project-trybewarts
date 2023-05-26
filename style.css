@@ -36,3 +36,16 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#name-lastname {
+  flex-direction: row;
+  /* width: auto; */
+}
+
+#input-name {
+  width: 45%;
+}
+
+#input-lastname {
+  width: 50%;
+}
