@@ -39,10 +39,6 @@ main {
 
 #name-lastname {
   flex-direction: row;
-<<<<<<< HEAD
-  /* width: auto; */
-=======
->>>>>>> 88c5093d9b4ca3e520509339663119a8c86dcc04
 }
 
 #input-name {
