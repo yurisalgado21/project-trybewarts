@@ -48,3 +48,11 @@ main {
 #input-lastname {
   width: 50%;
 }
+
+#section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
