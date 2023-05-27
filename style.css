@@ -29,7 +29,7 @@
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -59,4 +59,9 @@ main {
 #label-family {
   margin-top: 15px;
   flex-direction: row;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
 }
