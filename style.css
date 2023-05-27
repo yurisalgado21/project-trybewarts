@@ -50,9 +50,14 @@ main {
 }
 
 #section-2 {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:flex-start
 }
 
-
+/* Posicione os radio buttons para ficar abaixo um do outro e na sequência: Frontend, Backend e FullStack; */
+#label-family {
+  margin-top: 15px;
+  flex-direction: row;
+}
