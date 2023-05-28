@@ -70,6 +70,6 @@ main {
   display: flex;
 }
 
-.radio-buttons input[type="radio"]{
+.radio-buttons input [ type = 'radio' ] {
   margin-right: 5px;
 }
