@@ -73,3 +73,8 @@ main {
 .radio-buttons input [ type = 'radio' ] {
   margin-right: 5px;
 }
+
+#rodape {
+  display: absolute;
+  bottom: 0;
+}
