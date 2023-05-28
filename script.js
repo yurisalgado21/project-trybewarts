@@ -12,3 +12,14 @@ const validarLogin = () => {
 };
 
 validarLogin();
+
+const checkbox = document.getElementById('agreement');
+const submitButton = document.getElementById('submit-btn');
+
+checkbox.addEventListener('change', () => {
+  if (checkbox.checked) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+});
