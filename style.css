@@ -65,3 +65,11 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.radio-buttons {
+  display: flex;
+}
+
+.radio-buttons input[type="radio"]{
+  margin-right: 5px;
+}
