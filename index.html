@@ -13,13 +13,14 @@
     <img src="./images/trybewarts-header-logo.svg" alt="Trybewards logo" class="trybewarts-header-logo">
     <h1 id='trybewarts-header-title'>Trybewarts</h1>
     <form class="trybewarts-login">
-      <input type="email" name="email" placeholder="Email">
-      <input type="password" name="password" placeholder="Senha">
-      <button type="button" onclick="validarLogin()">Entrar</button>
+      <input type="email" name="email" placeholder="Email" id="id-email">
+      <input type="password" name="password" placeholder="Senha" id="id-password">
+      <button type="button" onclick="validarLogin()" id="button-login">Entrar</button>
     </form>
   </header>
   <main>
     <form id="evaluation-form">
+      <h1 id="title-formulary">Formulário de Avaliação</h1>
       <section id="name-lastname">
         <input type="text" id="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" placeholder="Sobrenome">
