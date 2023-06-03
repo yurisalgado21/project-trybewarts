@@ -108,7 +108,7 @@ main {
 }
 
 #submit-btn {
-  background-color: purple;
+  background-color: rgb(14, 87, 69);
   color: white;
   cursor: pointer;
   border-radius: 5px;
@@ -117,10 +117,11 @@ main {
 #title-formulary {
   font-size: 20px;
   text-align: center;
+  color: white;
 }
 
 #button-login {
-  background-color: purple;
+  background-color: rgb(14, 87, 69);;
   color: white;
   border: none;
   border-radius: 7px;
