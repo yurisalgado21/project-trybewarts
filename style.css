@@ -10,12 +10,11 @@
   width: 40px;
 }
 
-form.trybewarts-login {
+.trybewarts-login {
   display: flex;
   align-items: center;
   gap: 5px;
   border-radius: 5px;
-  
 }
 
 #trybewarts-header-title {
@@ -40,20 +39,33 @@ main {
   height: 500px;
 }
 
-#name-lastname {
-  flex-direction: row;
-}
 
 #input-name {
-  width: 45%;
+  border: none;
+  border-radius: 7px;
+  padding: 0 5px;
+  margin-top: 3px;
+  height: 25px;
 }
 
 #input-lastname {
   width: 50%;
+  border: none;
+  border-radius: 7px;
+  padding: 0 5px;
+  margin-top: 3px;
+  height: 25px;
+}
+
+#input-email {
+  border: none;
+  border-radius: 7px;
+  padding: 0 5px;
+  margin-top: 3px;
+  height: 25px; 
 }
 
 #section-2 {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -66,7 +78,10 @@ main {
 
 .content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
 .radio-buttons {
@@ -123,4 +138,30 @@ main {
   border-radius: 7px;
   padding: 0 2px;
   height: 25px;
+}
+
+#house {
+  border: none;
+  border-radius: 7px;
+  padding: 0 53px;
+  margin-top: 3px;
+  height: 25px;
+}
+
+body {
+  background-color: rgb(212, 211, 211);
+}
+
+.form-sections {
+  display: flex;
+  gap: 35px;
+}
+
+#label-div {
+  text-align: center;
+}
+
+hr {
+  border-color: black;
+  width: 100%;
 }

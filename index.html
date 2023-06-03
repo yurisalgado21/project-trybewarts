@@ -25,6 +25,7 @@
         <input type="text" id="input-name" placeholder="Nome">
         <input type="text" id="input-lastname" placeholder="Sobrenome">
         <input type="email" id="input-email" placeholder="Email">
+        <label>Casa</label>
         <select id="house">
           <option id="gitnoria-house" value="Gitnória">Gitnória</option>
           <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -32,30 +33,51 @@
           <option id="pytherina-house" value="Pytherina">Pytherina</option>
         </select>
       </section>
-      <section id="section-2">
-        <label id="label-family" for="family">Qual sua família?</label>
-        <input type="radio" id="frontend" name="family" value="Frontend">
-        <label for="frontend">Frontend</label>
-        <input type="radio" id="backend" name="family" value="Backend">
-        <label for="backend">Backend</label>
-        <input type="radio" id="fullstack" name="family" value="FullStack">
-        <label for="fullstack">Fullstack</label>
-      </section>
+      <br>
+      <hr>
+      <div class="form-sections">
+        <section id="section-2">
+          <div>
+            <div id="label-div">
+              <label id="label-family" for="family">Qual sua família?</label>
+            </div>
+          </div>
+          <div>
+            <input type="radio" id="frontend" name="family" value="Frontend">
+            <label for="frontend">Frontend</label>
+          </div>
+          <div>
+            <input type="radio" id="backend" name="family" value="Backend">
+            <label for="backend">Backend</label>
+          </div>
+          <div>
+            <input type="radio" id="fullstack" name="family" value="FullStack">
+            <label for="fullstack">Fullstack</label>
+          </div>
+        </section>
       <div class="content-container">
-        <label id="label-content" for="subject">Qual conteúdo você está com mais vontade de aprender?</label>
-        <input type="checkbox" class="subject" value="HoFs">
-        <label for="hofs">HoFs</label>
-        <input type="checkbox" class="subject" value="Jest">
-        <label for="jest">Jest</label>
-        <input type="checkbox" class="subject" value="Promises">
-        <label for="promises">Promises</label>
-        <input type="checkbox" class="subject" value="React">
-        <label for="react">React</label>
-        <input type="checkbox" class="subject" value="SQL">
-        <label for="sql">SQL</label>
-        <input type="checkbox" class="subject" value="Python">
-        <label for="python">Python</label>
+        <div>
+          <div id="div-content-label">
+            <label id="label-content" for="subject">Qual conteúdo você está com mais vontade de aprender?</label>
+          </div>
+          <input type="checkbox" class="subject" value="HoFs">
+          <label for="hofs">HoFs</label>
+          <input type="checkbox" class="subject" value="Jest">
+          <label for="jest">Jest</label>
+          <input type="checkbox" class="subject" value="Promises">
+          <label for="promises">Promises</label>
+          <input type="checkbox" class="subject" value="React">
+          <label for="react">React</label>
+          <input type="checkbox" class="subject" value="SQL">
+          <label for="sql">SQL</label>
+          <input type="checkbox" class="subject" value="Python">
+          <label for="python">Python</label>
+        </div>
+
       </div>
+    </div>
+    <br>
+    <hr>
       <label for="rate" id="label-rate">Como você avalia a Trybewarts?</label>
       <div class="radio-buttons">
         <input type="radio" name="rate" value="1">1
@@ -69,12 +91,17 @@
         <input type="radio" name="rate" value="9">9
         <input type="radio" name="rate" value="10">10
       </div>
+      <br>
+      <hr>
       <label class="textarea" for="comment">Deixe seu comentário:</label>
       <textarea id="acomment" maxlength="500"></textarea>
       <div>
+        <br>
+        <hr>
         <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
         <input type="checkbox" id="agreement">
       </div>
+      <br>
       <button type="submit" id="submit-btn" disabled>Enviar</button>
     </form>
     <img src="images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="Trybewards Logo">
