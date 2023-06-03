@@ -121,7 +121,7 @@ main {
 }
 
 #button-login {
-  background-color: rgb(14, 87, 69);;
+  background-color: rgb(14, 87, 69);
   color: white;
   border: none;
   border-radius: 7px;
@@ -169,6 +169,6 @@ body {
 }
 
 hr {
-  border-color: rgb(255, 255, 255);
+  border-color: white;
   width: 100%;
 }
